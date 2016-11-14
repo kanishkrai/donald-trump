@@ -23,7 +23,7 @@ footer a {
 
 header {
     position: absolute;
-    width: 100vw;
+    width: 90vw;
     top: 0;
-    height: 10vh;
+    padding: 5vw;
 }
