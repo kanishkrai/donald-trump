@@ -6,5 +6,6 @@
     "HEAD": "html"
   },
   "name": "donald-trump",
-  "type": "text"
+  "type": "text",
+  "book_id": 358
 }
