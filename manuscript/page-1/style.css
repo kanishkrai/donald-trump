@@ -1,12 +1,3 @@
-@font-face {
-    font-family: "Hindi Font" src: url('/Users/gjrai/Library/Fonts/SAMAN___.TTF') format('truetype');
-}
-
-h1 {
-    text-align: center;
-    font: "Hindi Font", Arial, Helvetica, serif;
-}
-
 footer {
     position: absolute;
     width: 100vw;
@@ -16,10 +7,9 @@ footer {
     color: white;
 }
 
-footer a { 
+footer a {
     color: #ff0;
 }
-
 
 header {
     position: absolute;
