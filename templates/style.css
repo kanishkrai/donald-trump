@@ -85,13 +85,14 @@ p {
     hyphens: auto;        
 }
 
-p.chapter-begin:first-letter {
+p.beginning:first-letter {
   display: inline-block;
-  margin: 5vw 1vw .1vw 0;
+  margin: 3vw 1vw .1vw 0;
   float: left;
   line-height: 10vw;
-  font-size: 25vw;
-  color: hsla(11, 50%, 50%, 1);
+  font-size: 23vw;
+  /*color: hsla(11, 50%, 50%, 1);*/
+  color: #2B5D80;
   font-family: 'Luckiest Guy', serif;
 }
 
@@ -106,12 +107,16 @@ p.chapter-begin:first-letter {
 
 
 blockquote {
-    font-family: 'EB Garamond', serif;
     margin: 2vh 0;
-    padding: 0;
+    padding: 3vw;
     quotes: "\201C""\201D""\2018""\2019";
-    color: #666; 
+    color: #2B5D80; 
     font-weight: 100;
+    background: hsla(186, 100%, 72%, 0.1);
+    font-style: italic;
+    border-radius: 1vw;
+    font-size: 3vw;
+    text-align: center;
 }
 
 blockquote:before {
@@ -119,7 +124,7 @@ blockquote:before {
     content: open-quote;
     font-size: 6vw;
     line-height: 0.1vw;
-    margin-right: -0.1vw;
+    margin-right: 1vw;
     vertical-align: -0.9vw;
 }
 
