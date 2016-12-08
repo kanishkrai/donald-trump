@@ -1,6 +1,5 @@
-body {
-    background: hsla(186, 100%, 72%, 1);
-
+body {     
+    background: hsla(186, 100%, 72%, 0.2);      
 }
 
 .logo{
