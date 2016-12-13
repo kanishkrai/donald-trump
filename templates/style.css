@@ -107,6 +107,7 @@ p.beginning:first-letter {
 
 
 blockquote {
+    font-family: 'PT Sans Narrow', serif;
     margin: 2vh 0;
     padding: 3vw;
     quotes: "\201C""\201D""\2018""\2019";
@@ -115,12 +116,13 @@ blockquote {
     background: hsla(186, 100%, 72%, 0.1);
     font-style: italic;
     border-radius: 1vw;
-    font-size: 3vw;
+    font-size: 3.5vw;
     text-align: center;
+    text-transform: uppercase;
 }
 
 blockquote:before {
-    color: #0c0;
+    color:  #ba2211;
     content: open-quote;
     font-size: 6vw;
     line-height: 0.1vw;
@@ -129,7 +131,7 @@ blockquote:before {
 }
 
 blockquote:after {
-    color: #0c0;
+    color:  #ba2211;
     content: close-quote;
     font-size: 6vw;
     line-height: 0.4vw;
