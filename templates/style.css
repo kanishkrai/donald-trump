@@ -152,23 +152,53 @@ blockquote:after {
   margin: 0 auto; 
 }
 
+.small {
+  font-size: 80%;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
 
 .tape {
+    height: 5vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    background: hsla(144, 80%, 33%, 1);
+    font-size: 2.5vw;
     background: #2B5D80;    
     position: absolute;
     left: 0;
     color: white;
 }
 
+.tape div.chaptername {
+  width: 80vw;
+  padding: 0 2vw;
+}
+
+.tape div.chapter {
+  width: 20vw;
+  height: 5vh;
+  background: gray;
+  color: white;
+}
+
+.right {
+  text-align: right;
+  float:right;
+}
+
+/* what */
+
 .tape div.punchline {
   width: 80vw;
 }
 
-.tape div.logo {
-  width: 20vw;
-  height: 100%;
-}
-
-.small {
-  font-size: 80%;
+.tape h1 {
+  color: white;
 }
