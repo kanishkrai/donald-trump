@@ -1,0 +1,28 @@
+body {     
+    background: hsla(186, 100%, 72%, 0.2);      
+}
+
+.logo{
+    margin: 0 0 5vh 0;
+}
+
+footer {
+    position: absolute;
+    width: 100vw;
+    bottom: 0;
+    height: 5vh;
+    background: #6f2c1b;
+    background: #00bcd2;
+    background: #2B5D80;
+    color: white;
+    font-size: 80%;
+}
+
+footer a {
+    color: #ff0;
+}
+
+footer a:hover {
+    color: #0ff;
+}
+
