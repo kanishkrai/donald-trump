@@ -1,8 +1,27 @@
+/*body {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    padding: 20px;
+    min-height: 100%;
+    box-sizing: border-box;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-family: helvetica neue, sans-serif;
+    background: url("");
+}
+
+
 section.profile {
     position: relative;
-    width: 325px;
+    width: 60vw;
     border: 1px solid #171a1f;
-    border-radius: 8px;
+    border-radius: 0.8vw;
     text-transform: uppercase;
 }
 
@@ -14,13 +33,13 @@ section.profile::after {
     z-index: -1;
     width: 94%;
     height: 1px;
-    box-shadow: 0 0 12px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 0 1.8vw rgba(0, 0, 0, 0.9);
     content: '';
 }
 
 .profile-header {
-    height: 140px;
-    border-radius: 7px 7px 0 0;
+    height: 21vw;
+    border-radius: 1vw 1vw 0 0;
     overflow: hidden;
     background: #e8decd;
 }
@@ -31,8 +50,8 @@ section.profile::after {
 }
 
 .profile-content {
-    padding: 0 30px 30px;
-    border-radius: 0 0 5px 5px;
+    padding: 0 4.5vw 4.5vw;
+    border-radius: 0 0 0.75vw 0.75vw;
     color: #e7e0cf;
     text-align: center;
     background: #2f363e;
@@ -144,20 +163,4 @@ html {
     background: #2d353d;
 }
 
-body {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 0;
-    padding: 20px;
-    min-height: 100%;
-    box-sizing: border-box;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    font-family: helvetica neue, sans-serif;
-    background: url("http://dir.agosto.nl/dump/profile.png");
-}
+*/
