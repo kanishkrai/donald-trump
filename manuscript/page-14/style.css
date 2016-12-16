@@ -1,5 +1,6 @@
 body {     
-    background: hsla(186, 100%, 72%, 0.2);      
+    background: hsla(186, 100%, 72%, 0.2);
+    background: white;
 }
 
 .logo{
@@ -26,3 +27,21 @@ footer a:hover {
     color: #0ff;
 }
 
+.qrcode{
+    position: absolute;
+    bottom: 10vh;
+    left: 5vh;
+    width: 50vw;
+    background: #ffe;
+    font-size: 2.5vw;
+}
+
+.qrcode ul {
+    width: 80%;
+}
+
+.qrcode ul li{
+    list-style-type: check;
+    padding: none;   
+    margin: 0;
+}
