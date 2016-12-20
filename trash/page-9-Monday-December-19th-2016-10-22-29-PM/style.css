@@ -1,0 +1,9 @@
+body {
+  background-color: #fff;
+  overflow: hidden;
+}
+canvas {
+  position: absolute;
+  top: calc( 50% - 200px );
+  left: calc( 50% - 200px );
+}
