@@ -1,6 +1,5 @@
-body {     
+body {
     background: hsla(186, 100%, 72%, 0.2);
-    background: white;
 }
 
 .logo{
@@ -30,18 +29,18 @@ footer a:hover {
 .qrcode{
     position: absolute;
     bottom: 10vh;
-    left: 5vh;
-    width: 50vw;
-    background: #ffe;
-    font-size: 2.5vw;
+    left: 5vw;
+    width: 90vw;
+    font-size: 3vw;
 }
 
 .qrcode ul {
     width: 80%;
+    text-align: right;
 }
 
 .qrcode ul li{
-    list-style-type: check;
-    padding: none;   
+    list-style-type: none;
+    padding: none;
     margin: 0;
 }

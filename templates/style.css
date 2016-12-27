@@ -57,7 +57,7 @@ a:active {
 .leaf {
   height: 100%;
   height: 100vh;
-  width: 100%;  
+  width: 100%;
   width: 100vw;
   margin: auto;
 }
@@ -82,7 +82,7 @@ p {
     margin: 3vw 0;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
-    hyphens: auto;        
+    hyphens: auto;
 }
 
 p.beginning:first-letter {
@@ -91,8 +91,7 @@ p.beginning:first-letter {
   float: left;
   line-height: 10vw;
   font-size: 23vw;
-  /*color: hsla(11, 50%, 50%, 1);*/
-  color: #2B5D80;
+  color: #00bcd2;
   font-family: 'Luckiest Guy', serif;
 }
 
@@ -111,9 +110,9 @@ blockquote {
     margin: 2vh 0;
     padding: 3vw;
     quotes: "\201C""\201D""\2018""\2019";
-    color: #2B5D80; 
+    color: #2B5D80;
     font-weight: 100;
-    background: hsla(186, 100%, 72%, 0.1);
+    background: hsla(37, 100%, 49%, 0.2);
     font-style: italic;
     border-radius: 1vw;
     font-size: 3.5vw;
@@ -122,7 +121,7 @@ blockquote {
 }
 
 blockquote:before {
-    color:  #ba2211;
+    color:  hsla(37, 100%, 49%, 1);
     content: open-quote;
     font-size: 6vw;
     line-height: 0.1vw;
@@ -131,7 +130,7 @@ blockquote:before {
 }
 
 blockquote:after {
-    color:  #ba2211;
+    color:  hsla(37, 100%, 49%, 1);
     content: close-quote;
     font-size: 6vw;
     line-height: 0.4vw;
@@ -149,7 +148,7 @@ blockquote:after {
 
 .center {
   text-align: center;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .small {
@@ -169,7 +168,7 @@ blockquote:after {
     left: 0;
     color: white;
     background: hsla(144, 80%, 33%, 1);
-    background: #2B5D80;        
+    background: #2B5D80;
     font-size: 2.5vw;
     position: absolute;
     left: 0;
@@ -184,7 +183,7 @@ blockquote:after {
 .tape div.chapter {
   width: 20vw;
   height: 5vh;
-  background: gray;
+  background: #00bcd2;
   color: white;
 }
 

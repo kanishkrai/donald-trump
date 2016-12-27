@@ -1,6 +1,5 @@
-body {     
+body {
     background: hsla(186, 100%, 72%, 0.2);
-    background: white;   
 }
 
 .logo{
@@ -33,3 +32,15 @@ footer a:hover {
     color: #0ff;
 }
 
+.vertical-pad {
+    padding: 3vw 0;
+
+}
+
+.badge{
+    position: absolute;
+    bottom: 5vh;
+    right: 5vw;
+    height: 25vw;
+    width: 25vw;
+}
