@@ -1,9 +1,22 @@
 body {
     background: hsla(186, 100%, 72%, 0.2);
+    background: white;
+    height: 90vh;
 }
 
+
+.leaf {
+  height: 90%;
+  height: 90vh;
+  width: 100%;
+  width: 100vw;
+  margin: auto;
+}
+
+
+
 .logo{
-    margin: 0 0 5vh 0;
+    margin: 0 0 4vh 0;
 }
 
 .border {
@@ -16,10 +29,10 @@ footer {
     position: absolute;
     width: 100vw;
     bottom: 0;
-    height: 5vh;
+    height: 8vh;
     background: #6f2c1b;
     background: #00bcd2;
-    background: #2B5D80;
+    /*background: #2B5D80;*/
     color: white;
     font-size: 80%;
 }
@@ -29,18 +42,31 @@ footer a {
 }
 
 footer a:hover {
-    color: #0ff;
+    color: #0f0;
 }
 
 .vertical-pad {
-    padding: 3vw 0;
+    padding: 0 0 8vw 0;
 
 }
 
 .badge{
     position: absolute;
-    bottom: 10vw;
+    bottom: 1vw;
+    left: 17vw;
+    height: 8vw;
+    width: 8vw;
+}
+
+h2 {
+    margin:0;
+    padding: 0;
+}
+
+.office{
+    position: absolute;
+    bottom: 3vh;
     left: 5vw;
-    height: 15vw;
-    width: 15vw;
+    width: 90vw;
+    font-size: 2vw;
 }

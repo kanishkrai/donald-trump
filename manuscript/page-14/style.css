@@ -26,6 +26,14 @@ footer a:hover {
     color: #0ff;
 }
 
+.office{
+    position: absolute;
+    bottom: 3vh;
+    left: 5vw;
+    width: 90vw;
+    font-size: 2vw;
+}
+
 .qrcode{
     position: absolute;
     bottom: 10vh;
