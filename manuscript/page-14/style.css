@@ -1,7 +1,3 @@
-body {
-    background: hsla(186, 100%, 72%, 0.2);
-}
-
 .logo{
     margin: 0 0 5vh 0;
 }
@@ -10,7 +6,7 @@ footer {
     position: absolute;
     width: 100vw;
     bottom: 0;
-    height: 5vh;
+    height: 8vh;
     background: #6f2c1b;
     background: #00bcd2;
     background: #2B5D80;
@@ -28,7 +24,7 @@ footer a:hover {
 
 .office{
     position: absolute;
-    bottom: 3vh;
+    bottom: 6vh;
     left: 5vw;
     width: 90vw;
     font-size: 2vw;
@@ -39,12 +35,12 @@ footer a:hover {
     bottom: 10vh;
     left: 5vw;
     width: 90vw;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .qrcode ul {
     width: 80%;
-    text-align: right;
+    padding: 0;
 }
 
 .qrcode ul li{

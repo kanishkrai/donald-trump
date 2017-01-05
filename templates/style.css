@@ -45,7 +45,7 @@ a:focus,
 a:active,
 a:hover {
   outline: 0 none;
-  color: #070;
+  color: #f00;
 }
 
 a:active {

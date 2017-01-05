@@ -1,7 +1,8 @@
 body {
     background: hsla(186, 100%, 72%, 0.2);
     background: white;
-    height: 90vh;
+    background: #fdf4d5;
+    height: 92vh;
 }
 
 
@@ -30,9 +31,8 @@ footer {
     width: 100vw;
     bottom: 0;
     height: 8vh;
-    background: tomato;
     /*background: #6f2c1b;*/
-    /*background: #00bcd2;*/
+    background: #00bcd2;
     /*background: #2B5D80;*/
     color: white;
     font-size: 80%;
